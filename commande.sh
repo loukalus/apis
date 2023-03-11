@@ -20,3 +20,6 @@ python manage.py runserver 8899
 # Or run the server on the default port 8000 
 python manage.py runserver
 
+# Sometime we dnned to migrate before lunching the serever
+python manage.py migrate
+
