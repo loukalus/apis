@@ -41,6 +41,7 @@
 
 - If you want to ensure that only specific IP addresses can access your API, you can use a firewall application on your server.
 
+<img src="./images/authentication.png" width="3500" height="200" alt="Security">
 
 # Access control 
 > With access control you can specify which users are allowed to access your API. And what data they can see, that way you can be sure that only the people who are supposed to manage your data can access it.
@@ -56,3 +57,5 @@ Example :
 So your accountants will only have access to accounting features while your HR team will only have access to HR management features. And there's also a manager specific role with relevant privileges, this way you can assign all three roles to the general manager and they will be able to perform every task an accountant HR and a manager can do. And if you assign a new privilege to the accountant role, the general manager will automatically have that privilege added to their role. 
 
 <img src="./images/Roles.png" width="450" height="200" alt="Security">
+
+<img src="./images/authorization.png" width="3500" height="200" alt="Security">
