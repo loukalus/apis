@@ -7,7 +7,7 @@ REST's essential best practices that every API developer should know.
 
 
 ## Filter, order and paginate
-You should always provide a way to filter large result sets and rearrange them in ascending or descending order. Using pagination, you can deliver results in smaller chunks. 
+You should always provide a way to filter large result sets and rearrange them in ascending or descending order. Using pagination, you can deliver results in smaller chunks.  
 When building an API, it is always a good idea to enable it to send results in smaller chunks. 
 This API requests 4 items from page number 10, from a total page count of 16:
 ```
