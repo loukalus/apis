@@ -25,7 +25,7 @@
 
 /api/books ==> Deliver all the books in your database.
 /api/books/{bookId} ==> Will show only a particularly book.
-<img src="./images/booksvselementbooks.png" width="250" height="250" alt="Security">
+<img src="./images/booksvselementbooks.png" width="550" height="250" alt="Security">
 
 > The results of an API request are usually delivered as JSON or xml data.
 - Here is a quick tip for converting a single model to a JSON response :
