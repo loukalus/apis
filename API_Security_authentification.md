@@ -55,4 +55,4 @@
 Example :
 So your accountants will only have access to accounting features while your HR team will only have access to HR management features. And there's also a manager specific role with relevant privileges, this way you can assign all three roles to the general manager and they will be able to perform every task an accountant HR and a manager can do. And if you assign a new privilege to the accountant role, the general manager will automatically have that privilege added to their role. 
 
-<img src="./images/roles.png" width="350" height="200" alt="Security">
+<img src="./images/Roles.png" width="350" height="200" alt="Security">
