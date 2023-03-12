@@ -18,6 +18,6 @@
 <img src="./images/Signature.png" width="400" height="250" alt="Security">
 
 - How to include signature ? **HMAK**  
-<img src="./images/hmak.png" width="400" height="250" alt="Security">
+<img src="./images/hmak.png" width="400" height="150" alt="Security">
 
 
