@@ -13,7 +13,7 @@
   - Price, which will be a decimal field with a maximum of five digits and two decimal places.
   - Inventory which is an optional positive small integer field to indicate if a book is in stock or not.
  
-<img src="./images/table.png" width="250" height="350" alt="Security">
+<img src="./images/table.png" width="350" height="250" alt="Security">
 
 ## API Endpoints
  - We need two API endpoints to allow users to browse a single book or the whole collection. 
@@ -43,7 +43,7 @@ return JsonResponse(model_to_dict(book))
 ```
 /api/books/<int:pk>
 ```
-<img src="./images/delete_edite.png" width="250" height="250" alt="Security">
+<img src="./images/delete_edite.png" width="250" height="150" alt="Security">
 
 ### Sample JSON String par payload
 Data is passed in http body as :   
