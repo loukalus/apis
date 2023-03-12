@@ -37,7 +37,7 @@
 ## Cross origin resource sharint CORS & FirewAll
 - We can accept calls from everywhere, or by configuring the cores headers, you can only accept calls from some specific domains.
 
-<img src="./images/cors.png" width="350" height="160" alt="Security">
+<img src="./images/cors.png" width="350" height="200" alt="Security">
 
 - If you want to ensure that only specific IP addresses can access your A PI, you can use a firewall application on your server.
 
