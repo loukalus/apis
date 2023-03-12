@@ -18,7 +18,7 @@
 - Use pipnv to isolate the dependencies in a virtual environment for your projects.
 By doing this, you avoid any potential conflicts and can ensure that your dependencies are exactly what you need for your project. 
 
-## Upgrades might break apps
+## Versioning
 - When you upgrade an API, it may break the existing app because the result of the new API might not be the same as the old one.
 - For such upgrades, you should always use versioning and keep the old working API intact and launch the updated version so that the developers of the client app have enough time to update their apps to work properly with the new APIs.
 - For the newer version, always create a separate app instead of adding everything in the old app because it will be hard to manage over time.
