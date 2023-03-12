@@ -35,11 +35,11 @@
 - **403** : which means forbidden. This is an interesting code, and it means that your credentials are valid and you have successfully identified yourself, but you don't have the authority to perform the action.
 
 ## Cross origin resource sharint CORS & FirewAll
-- We can accept calls from everywhere, or by configuring the cores headers, you can only accept calls from some specific domains.
+- We can accept calls from everywhere, or by configuring the cores headers, we can only accept calls from some specific domains.
 
 <img src="./images/cors.png" width="350" height="200" alt="Security">
 
-- If you want to ensure that only specific IP addresses can access your A PI, you can use a firewall application on your server.
+- If you want to ensure that only specific IP addresses can access your API, you can use a firewall application on your server.
 
 
 
