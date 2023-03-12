@@ -13,7 +13,7 @@
   - Price, which will be a decimal field with a maximum of five digits and two decimal places.
   - Inventory which is an optional positive small integer field to indicate if a book is in stock or not.
  
-<img src="./images/table.png" width="350" height="250" alt="Security">
+<img src="./images/table.png" width="300" height="150" alt="Security">
 
 ## API Endpoints
  - We need two API endpoints to allow users to browse a single book or the whole collection. 
@@ -25,7 +25,7 @@
 
 /api/books ==> Deliver all the books in your database.
 /api/books/{bookId} ==> Will show only a particularly book.
-<img src="./images/booksvselementbooks.png" width="550" height="250" alt="Security">
+<img src="./images/booksvselementbooks.png" width="300" height="100" alt="Security">
 
 > The results of an API request are usually delivered as JSON or xml data.
 - Here is a quick tip for converting a single model to a JSON response :
@@ -43,7 +43,7 @@ return JsonResponse(model_to_dict(book))
 ```
 /api/books/<int:pk>
 ```
-<img src="./images/delete_edite.png" width="250" height="150" alt="Security">
+<img src="./images/delete_edite.png" width="300" height="150" alt="Security">
 
 ### Sample JSON String par payload
 Data is passed in http body as :   
