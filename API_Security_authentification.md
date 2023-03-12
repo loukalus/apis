@@ -17,7 +17,16 @@
 - Server side code can verify the signature and ensure that the call comes from an authentic source.
 <img src="./images/Signature.png" width="400" height="250" alt="Security">
 
-- How to include signature ? **HMAK**  
+- How to include signature ?   
+- **HMAK** : For example, some secret message, encoded by a digest algorithm with a secret key, some secret key creates this HMAC signature. 
 <img src="./images/hmak.png" width="400" height="130" alt="Security">
+
+
+## Authentification 
+> user names and password based authentication ? sending a user name and passwords to every API call is frustrating and it's not secure.
+### Token based authentication
+- **Basic authentication** : requires users to send their user name and password in every call.
+- prefers using token based authentication over HTTP based authentication when securing its API.Because basic authentication requires users to send their user name and password in every call.
+- **token-based authentication** : the user sends their user name and password to the sign in URL, and then receives a unique token in text form. After that, every API call will include this token as a HTTP header. The server side code can check the token, extract the information hidden in it and match it with an existing user. After this verification, the rest of the work is performed on behalf of that matching user. **To create this token, you can use an ad hoc policy from the backend framework we're using, or you can use something more industry standard, like JSON Web Token or JWT.**
 
 
