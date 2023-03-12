@@ -11,7 +11,7 @@
   - Smaller aims
   - Multiple apps 
 
-## Avoid global environment
+## Use virtual environment and avoid global environment
 - You shouldn't use the global environment for your project dependencies. That's because not every project uses the same version of a package and not every project needs all of them.
 - Using the global environment will create conflicts for the packages and create more issues than solutions.
 - Always use a virtual environment to avoid such conflicts.
