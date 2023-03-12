@@ -29,4 +29,18 @@
 - prefers using token based authentication over HTTP based authentication when securing its API.Because basic authentication requires users to send their user name and password in every call.
 - **token-based authentication** : the user sends their user name and password to the sign in URL, and then receives a unique token in text form. After that, every API call will include this token as a HTTP header. The server side code can check the token, extract the information hidden in it and match it with an existing user. After this verification, the rest of the work is performed on behalf of that matching user. **To create this token, you can use an ad hoc policy from the backend framework we're using, or you can use something more industry standard, like JSON Web Token or JWT.**
 
+## HTTP code involved during the authentification process
+- There are a couple of popular HTTP codes involved during the authentication process :
+- **401** : means unauthorized. In this context, unauthorized means the user name and password don't match. So the server cannot continue further.
+- **403** : which means forbidden. This is an interesting code, and it means that your credentials are valid and you have successfully identified yourself, but you don't have the authority to perform the action.
+
+## Cross origin resource sharint CORS & FirewAll
+- We can accept calls from everywhere, or by configuring the cores headers, you can only accept calls from some specific domains.
+
+<img src="./images/cors.png" width="400" height="130" alt="Security">
+
+- If you want to ensure that only specific IP addresses can access your A PI, you can use a firewall application on your server.
+
+
+
 
