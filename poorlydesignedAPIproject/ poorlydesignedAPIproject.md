@@ -1,6 +1,6 @@
-#Consequences of a poorly designed API project
+# Consequences of a poorly designed API project
 
-##Introduction 
+## Introduction 
 - Creating a good API project can be challenging. You need to stick to the conventions, write proper error checks in your code, perform security checks, and make sure that your APIs are using processing power and bandwidth optimally.
 - This all takes time and proper planning. But what happens if you don’t properly plan and execute your APIs?
 - Let’s examine some of the consequences of a poorly designed API project.
