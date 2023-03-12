@@ -42,5 +42,17 @@
 - If you want to ensure that only specific IP addresses can access your API, you can use a firewall application on your server.
 
 
+# Access control 
+> With access control you can specify which users are allowed to access your API. And what data they can see, that way you can be sure that only the people who are supposed to manage your data can access it.
+> API design is not complete without effective access control by taking the proper time to design and plan out your privileges and roles. You make life easier for developers and avoid costly debugging and refactoring down the road. A well designed API access control system is an asset for the whole project, it saves time and money in the long run.
 
+## Role
+- Roles and privileges are the building blocks of designing and access control system. A role is a collection of privileges and a privilege is if you are allowed to do a particular task. 
 
+## Authorisation
+- Authorization is another word for access control
+-  Authentication and authorization are two different things. Authentication gets you in and authorization allows you to do something after authentication or prevents you from doing it.
+Example :
+So your accountants will only have access to accounting features while your HR team will only have access to HR management features. And there's also a manager specific role with relevant privileges, this way you can assign all three roles to the general manager and they will be able to perform every task an accountant HR and a manager can do. And if you assign a new privilege to the accountant role, the general manager will automatically have that privilege added to their role. 
+
+<img src="./images/roles.png" width="350" height="200" alt="Security">
