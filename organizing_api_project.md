@@ -41,4 +41,4 @@ pip3 freeze > requirements.txt
 
 ### Place business logic in models
 - Instead of putting all the business logic into views, take them to the related models. 
-<img src="./images/business_logic_in_models.png" width="100" height="200" alt="Security">
+<img src="./images/business_logic_in_models.png" width="120" height="200" alt="Security">
