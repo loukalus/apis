@@ -1,9 +1,10 @@
 # REST best practices
 
-REST's essential best practices that every API developer should know. 
+> REST's essential best practices that every API developer should know.  
 
-## KISS 
+## KISS
 - **K**eep **I**t **S**uper **S**imple : keeping your API endpoints simple and focused.
+A single API should do one specific job and do it well.  
 
 
 ## Filter, order and paginate
@@ -13,5 +14,7 @@ This API requests 4 items from page number 10, from a total page count of 16:
 ```
 /menu-items?perpage=4&page=10
 ```
+
+## Filter, order and paginate
 
 
