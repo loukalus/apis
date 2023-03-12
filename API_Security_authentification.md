@@ -16,3 +16,8 @@
 - With a signed URL, every time an API is called, a particular piece of text called a signature is included with the URL.
 - Server side code can verify the signature and ensure that the call comes from an authentic source.
 <img src="./images/Signature.png" width="400" height="250" alt="Security">
+
+- How to include signature ? **HMAK**  
+<img src="./images/hmak.png" width="400" height="250" alt="Security">
+
+
