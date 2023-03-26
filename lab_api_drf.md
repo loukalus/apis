@@ -42,3 +42,36 @@ class SingleBookView(generics.RetrieveUpdateAPIView):
     queryset = Book.objects.all()
     serializer_class = BookSerializer
 ```
+
+## Solution code for urls.py (Project-level)
+
+```
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('api/', include('BookListDRF.urls')), 
+]
+```
+
+## Solution code for urls.py (App-level)
+```
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('books', views.BookView.as_view()),
+    path('books/<int:pk>', views.SingleBookView.as_view()),
+]
+```
+## Solution code for serializers.py
+```
+from rest_framework import serializers
+from .models import Book
+
+class BookSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Book
+        fields = ['id','title','author','price']
+```
