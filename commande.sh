@@ -11,7 +11,7 @@ pipenv shell
 django-admin startproject LittleLemon .
 
 # Create The app 
-python manage.py startapp LittellemonAPI 
+python manage.py startapp LittlelemonAPI 
 
 
 # To run the server 
